@@ -45,7 +45,11 @@ public class TV{
         return canal;
     }
     public void setCanal(int canal){
+        if (canal > 120){
+            this.canal = 120
+        }else{
         this.canal = canal;
+        }
     }
 
     public static int getNumTV(){
