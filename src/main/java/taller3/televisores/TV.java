@@ -57,7 +57,7 @@ public class TV{
 
     public void turnOn(){
         this.estado = true;
-        this.volumen = volumen
+        this.volumen = volumen;
     }
     public void turnOff(){
         this.estado = false;
